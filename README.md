@@ -14,6 +14,9 @@ An Android Phone with the following:
 AWP is run per app, which should already be running when attempting to launch the program. \
 Keys are printed the specified format as soon as a challenge and license were received.
 
+> [!NOTE]  
+> This will not work if the app is not using the MediaDrm API
+
 ```
 usage: main.py [-h] [--key-format {default,mp4decrypt,shaka-packager}] [--token-only] <APP_NAME> <WVD>
 
