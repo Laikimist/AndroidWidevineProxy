@@ -1,0 +1,20 @@
+{
+  "name": "widevineproxyandroid",
+  "version": "1.0.0",
+  "main": "myhook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "frida-compile agent/hook.ts -o _agent.js && node clean.js _agent.js _agent.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/frida-gum": "^19.0.0",
+    "@types/node": "^18.19.111",
+    "frida-compile": "^19.0.4",
+    "frida-java-bridge": "^7.0.8",
+    "protobufjs": "^7.5.4"
+  }
+}
